@@ -7,21 +7,21 @@ function sendDataToLambda()
     var emailObj = ""
     if(email)
     {
-        emailObj = email.value();
+        emailObj = email.value;
     }
     
     var name = document.getElementById("formName")
     var nameObj = ""
     if(name)
     {
-        nameObj = name.value();
+        nameObj = name.value;
     }
 
     var subject = document.getElementById("formSubject")
     var subjectObj = ""
     if(subject)
     {
-        subjectObj = subject.value();
+        subjectObj = subject.value;
     }
 
     var messageObj = nameObj + " wants to contact you! Please revert back ASAP."
